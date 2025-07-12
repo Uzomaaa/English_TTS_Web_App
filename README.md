@@ -1,4 +1,4 @@
-# Text-to-Speech App in Nigerian Languages 
+# Text-to-Speech App
 
 # Overview
 
