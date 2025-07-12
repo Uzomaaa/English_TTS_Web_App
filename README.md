@@ -1,10 +1,9 @@
-# Project Title:
-# Text-to-Speech App in Nigerian Languages – Team English
+# Text-to-Speech App in Nigerian Languages 
 
 # Overview
 
-This project is a simple Text-to-Speech (TTS) web application that allows users to type English text and hear it spoken aloud using AI-generated voices from the ElevenLabs API. Our team focused on the English language, which serves as Nigeria’s official language and the most widely used for communication across sectors.
-We also tested how well the ElevenLabs API handles other Nigerian languages such as Yoruba, Igbo, and Pidgin English.
+This project is a simple Text-to-Speech (TTS) web application that allows users to type English text and hear it spoken aloud using AI-generated voices from the ElevenLabs API. I focused on the English language, which serves as Nigeria’s official language and the most widely used for communication across sectors.
+I also tested how well the ElevenLabs API handles other Nigerian languages such as Yoruba, Igbo, and Pidgin English.
 
 # Technologies Used
 
@@ -43,7 +42,7 @@ ElevenLabs supports multiple languages through the eleven_multilingual_v2 model.
 
 # Language Focus: English
 
-We tested the app primarily using natural English sentences such as:
+I tested the app primarily using natural English sentences such as:
 
 “Long long ago, in a small house near the forest, there lived a little girl with her mother. Her name was Little Red Riding Hood.”
 
@@ -63,7 +62,7 @@ We tested the app primarily using natural English sentences such as:
 
 •	The ElevenLabs model (eleven_multilingual_v2) attempts detection, but the voices used were not trained on these languages, leading to robotic outputs.
 
-# How We Tested Pronunciation
+# How Pronunciation was tested
 
 1.	Entered English and non-English text into the app.
   
@@ -88,7 +87,7 @@ We tested the app primarily using natural English sentences such as:
 
 # Team Reflection
 
-Building the TTS app with ElevenLabs was a great learning experience. We faced challenges using VSCode, especially with loading the API key from the .env file and handling 401 errors due to “unusual activity.” Despite debugging environment variable paths and trying various fixes, the app only worked reliably on Google Colab, so I switched to Colab to complete the project.
+Building the TTS app with ElevenLabs was a great learning experience. I faced challenges using VSCode, especially with loading the API key from the .env file and handling 401 errors due to “unusual activity.” Despite debugging environment variable paths and trying various fixes, the app only worked reliably on Google Colab, so I switched to Colab to complete the project.
 I also tested Igbo, Yoruba, and Pidgin, but the ElevenLabs voices struggled with pronunciation and tone. English output worked well, but local Nigerian languages were not fluent.
 This project helped me improve my skills in API integration, debugging, error handling, and building user-friendly web apps with Gradio.
 
